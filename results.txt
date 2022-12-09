@@ -1,0 +1,5 @@
+Deepwalk on BlogCatalog dataset ()
+
+2022-12-09 09:58:15,590 micro f1 0.419220 macro f1 0.262999
+2022-12-09 09:58:15,590 10 fold validation, training ratio 0.900000
+2022-12-09 09:58:15,590 Average micro 40.77, Average macro 25.66

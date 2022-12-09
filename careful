@@ -7,3 +7,5 @@ from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop 
 ImportError: cannot import name 'Vocab' from 'gensim.models.word2vec' (/Users/arvindramaswami/anaconda3/envs/deepwalk/lib/python3.9/site-packages/gensim/models/word2vec.py)
 
 so i just deleted this line, since it (at first glance) seems like it's not being used anywhere?
+
+i need numpy 1.20.3 for blas to work
