@@ -1,0 +1,5 @@
+-the repo was meant for an older version of python,
+so i needed to modify it to a more lightweight version
+
+-reading existing codebases (deepwalk codebase, netmf codebase)
+and adapting them to my needs

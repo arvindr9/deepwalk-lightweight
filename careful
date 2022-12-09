@@ -1,0 +1,9 @@
+/Users/arvindramaswami/Desktop/classes/cs7650_project/deepwalk2/graph.py:14:
+DeprecationWarning: Using or importing the ABCs from 'collections' instead of
+from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+
+  File "/Users/arvindramaswami/Desktop/classes/cs7650_project/deepwalk2/skipgram.py", line 8, in <module>
+    from gensim.models.word2vec import Vocab
+ImportError: cannot import name 'Vocab' from 'gensim.models.word2vec' (/Users/arvindramaswami/anaconda3/envs/deepwalk/lib/python3.9/site-packages/gensim/models/word2vec.py)
+
+so i just deleted this line, since it (at first glance) seems like it's not being used anywhere?

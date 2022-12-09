@@ -1,0 +1,28 @@
+Things to do:
+
+what format is the .embeddings file in?
+each vertex is not associated with a class hmm
+
+i need to separately have the embeddings for each node,
+and the classes for each node, and do something of the
+flavor that the NetMF repo does.
+
+what format are the embeddings for NetMF saved in?
+
+need to save the embeddings in .npy format instead
+
+
+Comments / status:
+according to https://stackoverflow.com/questions/53195906/getting-init-got-an-unexpected-keyword-argument-document-this-error-in size
+should be changed to vector_size in Word2Vec
+
+I am able to run deepwalk!
+
+remove conda environment: https://stackoverflow.com/questions/49127834/removing-conda-environment
+create conda environment: https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+
+Note average micro / macro F1 scores
+
+
+pip install gensim
+
