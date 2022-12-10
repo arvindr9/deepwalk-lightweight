@@ -23,6 +23,8 @@ python3 predict.py --label example_graphs/blogcatalog.mat --embedding blogcatalo
 __main__.py, graph.py, skipgram.py -- DeepWalk code from https://github.com/phanein/deepwalk
 netmf.py, predict.py -- Taken from https://github.com/xptree/NetMF
 
+generate_erdos_renyi.cpp -- generates Erdos-Renyi graphs to test the scaling ability of Deepwalk
+
 Future directions:
 - Use adaptive context window sizes
 - Try these algorithms on larger datasets
